@@ -1,0 +1,73 @@
+.infobox {
+	float: left;
+	background: white;
+	border: 1px solid #bebebe;
+	margin: 3%;
+	width: 40%;
+}
+
+.infobox h2 {
+	font-family: 'Roboto Slab', serif;
+	padding: 1rem;
+	margin: 0 0 0.5rem 0;
+}
+
+.infobox p {
+	font-family: 'Roboto Condensed', sans-serif;
+	padding: 0 1rem;
+}
+
+.titlebar-blue {
+	color: white;
+	background: repeating-linear-gradient(
+		45deg,
+		#33b5e5,
+		#33b5e5 10px,
+		#0099cc 10px,
+		#0099cc 20px	
+	);
+}
+
+.titlebar-purple {
+	color: white;
+	background: repeating-linear-gradient(
+		-45deg,
+		#aa66cc,
+		#aa66cc 10px,
+		#9933cc 10px,
+		#9933cc 20px	
+	);
+}
+
+.titlebar-green {
+	color: white;
+	background: repeating-linear-gradient(
+		0deg,
+		#99cc00,
+		#99cc00 10px,
+		#669900 10px,
+		#669900 20px	
+	);
+}
+
+.titlebar-yellow {
+	color: white;
+	background: repeating-linear-gradient(
+		90deg,
+		#ffbb33,
+		#ffbb33 10px,
+		#ff8800 10px,
+		#ff8800 20px	
+	);
+}
+
+.titlebar-red {
+	color: white;
+	background: repeating-radial-gradient(
+		circle,
+		#ff4444,
+		#ff4444 10px,
+		#cc0000 10px,
+		#cc0000 20px	
+	);
+}
